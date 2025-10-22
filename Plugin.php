@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Vito\Plugins\Afrihost\Bonnie;
+namespace App\Vito\Plugins\Afrihost\VitoGitlabSelfHosted;
 
-use App\Plugins\AbstractPlugin;
-
-class Plugin extends AbstractPlugin
+class Plugin extends \App\Plugins\AbstractPlugin
 {
     protected string $name = 'Gitlab Self Hosted';
 
@@ -14,7 +12,7 @@ class Plugin extends AbstractPlugin
     {
         \App\Plugins\RegisterSourceControl::make('gitlab-self-hosted')
             ->label('Self Hosted Gitlab')
-            ->handler(Bonnie::class)
+            ->handler(\App\Vito\Plugins\Afrihost\VitoGitlabSelfHosted\Bonnie::class)
             ->form(
                 \App\DTOs\DynamicForm::make([
                     \App\DTOs\DynamicField::make('token')

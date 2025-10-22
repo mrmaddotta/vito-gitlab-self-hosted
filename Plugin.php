@@ -12,7 +12,7 @@ class Plugin extends \App\Plugins\AbstractPlugin
     {
         \App\Plugins\RegisterSourceControl::make('gitlab-self-hosted')
             ->label('Self Hosted Gitlab')
-            ->handler(\App\Vito\Plugins\Afrihost\VitoGitlabSelfHosted\Bonnie::class)
+            ->handler(\App\Vito\Plugins\Mrmaddotta\VitoGitlabSelfHosted\Bonnie::class)
             ->form(
                 \App\DTOs\DynamicForm::make([
                     \App\DTOs\DynamicField::make('token')

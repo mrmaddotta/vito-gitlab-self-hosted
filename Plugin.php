@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Vito\Plugins\Afrihost\VitoGitlabSelfHosted;
+namespace App\Vito\Plugins\Mrmaddotta\VitoGitlabSelfHosted;
 
 class Plugin extends \App\Plugins\AbstractPlugin
 {
-    protected string $name = 'Gitlab Self Hosted';
+    protected string $name = 'Gitlab Self Hosted P24';
 
     protected string $description = 'An example plugin template for vito plugins';
 

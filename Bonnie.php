@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Afrihost\Bonnie;
+namespace App\Vito\Plugins\Mrmaddotta\VitoGitlabSelfHosted;
 
 use App\Exceptions\FailedToDeployGitHook;
 use App\Exceptions\FailedToDeployGitKey;
